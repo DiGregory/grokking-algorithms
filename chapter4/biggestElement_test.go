@@ -13,11 +13,11 @@ var bigElemTestCases = []bigElemTestCase{
 		output: 3,
 	},
 	{
-		input: []int{5},
+		input:  []int{5},
 		output: 5,
 	},
 	{
-		input:[]int{8,6,7,5,},
+		input:  []int{8, 6, 7, 5,},
 		output: 8,
 	},
 }
@@ -31,5 +31,4 @@ func TestBiggestElem(t *testing.T) {
 				"\r\nexpected: ", c.output)
 		}
 	}
-
 }
